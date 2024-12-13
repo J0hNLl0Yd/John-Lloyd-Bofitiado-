@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Lloyd Bofitiado Car Dealerships - Products</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Styless.css"> <!-- Updated stylesheet for better visuals -->
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>John Lloyd Bofitiado Car Dealerships</h1>
+      <p>Discover the finest selection of vehicles tailored for you.</p>
+    </div>
+    <nav>
+      <ul id="categories">
+        <li onclick="showCategory('sedans')">Sedans</li>
+        <li onclick="showCategory('SUVs')">SUVs</li>
+        <li onclick="showCategory('trucks')">Trucks</li>
+        <li onclick="showCategory('electric')">Electric</li>
+        <li onclick="showCategory('sports')">Sports</li>
+      </ul>
+    </nav>
+  </header>
+
+  <a href="index.html" class="home-button">Home</a>
+
+  <main>
+    <section id="product-list" class="product-grid">
+      <h2>Select a category to see cars</h2>
+      <!-- Products will dynamically load here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 John Lloyd Bofitiado Car Dealerships. All rights reserved.</p>
+    <p>Designed with care to bring you the best car-buying experience.</p>
+  </footer>
+
+  <script>
+    // Example script for handling product categories
+    function showCategory(category) {
+      const productList = document.getElementById('product-list');
+      productList.innerHTML = `<h2>${category} Cars</h2><p>Products for ${category} will be displayed here.</p>`;
+    }
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

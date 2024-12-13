@@ -1,0 +1,21 @@
+/* Blog Section Styles */
+#blog .blog-post {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+#blog .blog-post h3 {
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+#blog .separator {
+    height: 2px;
+    background: linear-gradient(to right, #00796b, #e1bee7);
+    margin: 20px 0;
+    border-radius: 5px;
+}

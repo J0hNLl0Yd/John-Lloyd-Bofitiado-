@@ -1,0 +1,57 @@
+/* General Button Styles */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Style for "Add to Cart" button */
+  .add-to-cart {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    font-weight: bold;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+  }
+  
+  .add-to-cart:active {
+    background-color: #3e8e41; /* Even darker green when clicked */
+    transform: translateY(2px); /* Button presses down */
+  }
+  
+  /* Style for "Home" button */
+  .home-button {
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .home-button:active {
+    background-color: #003f7f; /* Even darker blue when clicked */
+  }
+  
+  /* Additional styling for the header */
+  header h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .home-button {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
